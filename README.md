@@ -2,6 +2,8 @@
 
 A modern web application for displaying daily and weekly Islamic prayer times, with customizable settings and a beautiful, responsive UI. Built with Next.js, React, and Tailwind CSS.
 
+🌐 **Live Demo:** [https://prayer-time-tafsoft.vercel.app/](https://prayer-time-tafsoft.vercel.app/)
+
 ## Features
 
 - **Daily Prayer Times:** View today's prayer times for your selected city and country.
@@ -24,7 +26,7 @@ A modern web application for displaying daily and weekly Islamic prayer times, w
 
 ### Prerequisites
 - Node.js (v18+ recommended)
-- pnpm (or npm/yarn)
+- npm or yarn
 
 ### Installation
 
@@ -37,14 +39,10 @@ A modern web application for displaying daily and weekly Islamic prayer times, w
    ```bash
    npm install
    # or
-   npm install
-   # or
    yarn install
    ```
 3. **Run the development server:**
    ```bash
-   npm dev
-   # or
    npm run dev
    # or
    yarn dev
@@ -74,14 +72,14 @@ A modern web application for displaying daily and weekly Islamic prayer times, w
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## Scripts
-- `npm dev` — Start development server
-- `npm build` — Build for production
-- `npm start` — Start production server
-- `npm lint` — Lint code
+- `npm run dev` — Start development server
+- `npm run build` — Build for production
+- `npm run start` — Start production server
+- `npm run lint` — Lint code
 
 ## Credits
 - UI inspired by shadcn/ui and Radix UI
-- Created by TafSoft.uz
+- Created by [TafSoft.uz](https://prayer-time-tafsoft.vercel.app/)
 
 ## License
 
